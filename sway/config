@@ -272,5 +272,5 @@ dwt enabled
 
 #lockscreen 
 bindsym $mod+x exec setsid swaylock -f -i /home/dan/Pictures/wallpaper/b.png -s fill
-exec swayidle -w before-sleep 'pkill -9 swaylock; swaylock -f -i /home/dan/Pictures/wallpaper/b.png -s fill && sleep 1'
+exec_always swayidle -w before-sleep 'pkill -9 swaylock; swaylock -f -i /home/dan/Pictures/wallpaper/b.png -s fill && sleep 1'
 
