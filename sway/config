@@ -254,13 +254,13 @@ bar {
 #dfsf
 bindsym $mod+p  exec grim -g "$(slurp)" - | swappy -f - | wl-copy
 #
-#nigga
+#Network
 exec nm-applet --indicator
 #niggaw
 #exec_always autotiling
 
 #
-#kii
+#Touchpad for panasonic cf-mx5
 input "2:7:SynPS/2_Synaptics_TouchPad" {
 dwt enabled
     tap enabled
