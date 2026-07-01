@@ -261,7 +261,7 @@ exec nm-applet --indicator
 
 #
 #Touchpad for panasonic cf-mx5
-input "2:7:SynPS/2_Synaptics_TouchPad" {
+input "2:7:SynPS/2_Synaptics_TouchPad" { #or your touchpad devices name
 dwt enabled
     tap enabled
     natural_scroll enabled
